@@ -182,7 +182,7 @@ public class MyApplication extends Application {
   ```
   
 
-# 所有初始化方法
+# 所有初始化方法
 
 ```java
 package com.qzb.http_java;
@@ -225,7 +225,7 @@ public class MyApplication extends Application {
 }
 ```
 
-# 关于内存泄漏
+# 关于内存泄漏
 
 由于项目使用Rxjava，因此网络请求可能会有内存泄漏，可以通过传统的`Disposable.dispose()`或者`CompositeDisposable.dispose()`来解决。
 
