@@ -229,4 +229,4 @@ public class MyApplication extends Application {
 
 由于项目使用Rxjava，因此网络请求可能会有内存泄漏，可以通过传统的`Disposable.dispose()`或者`CompositeDisposable.dispose()`来解决。
 
-框架本身不应该限制方式，因此也可以使用一些优秀的开源库来解决此问题，比如[RxLifecycle]([GitHub - trello/RxLifecycle: Lifecycle handling APIs for Android apps using RxJava](https://github.com/trello/RxLifecycle))，[AutoDispose]([GitHub - uber/AutoDispose: Automatic binding+disposal of RxJava streams.](https://github.com/uber/AutoDispose))或者[RxLife]([GitHub - liujingxing/rxlife: 一行代码解决RxJava 内存泄漏，一款轻量级别的RxJava生命周期管理库](https://github.com/liujingxing/rxlife))
+框架本身不应该限制方式，因此也可以使用一些优秀的开源库来解决此问题，比如[RxLifecycle](https://github.com/trello/RxLifecycle)，[AutoDispose](https://github.com/uber/AutoDispose)或者[RxLife](https://github.com/liujingxing/rxlife)
