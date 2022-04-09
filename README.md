@@ -19,7 +19,7 @@ http_java是retrofit2+rxjava3封装的一套轻量级网络请求框架，支持
   
   ```groovy
   dependencies {
-              implementation 'com.github.Gennki:http_java:Tag'
+              implementation 'com.github.Gennki:http_java:v1.0.0'
       }
   ```
   
